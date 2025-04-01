@@ -1,14 +1,45 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
+# =========================
+# .gitignore para Unreal Engine 5
+# =========================
+
+# Carpetas generadas automáticamente por el motor
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Archivos y carpetas temporales
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos de logs
+*.log
+*.dmp
+
+# Archivos de caché de motores
 *.opensdf
-*.opendb
 *.sdf
 *.sln
-*.suo
-*.xcodeproj
-*.xcworkspace
+*.VC.db
+*.VC.opendb
+
+# Ignorar archivos y carpetas de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Opcional: ignora la carpeta de configuración local (si no necesitas compartirla)
+Config/DefaultEditorPerProjectUserSettings.ini
+
+# Archivos de backup de Unreal
+*.autosave
+*.backup
+*.tmp
+
+# Opcional: ignora contenido pesado local
+*.uasset
+*.umap
