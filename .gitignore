@@ -40,6 +40,4 @@ Config/DefaultEditorPerProjectUserSettings.ini
 *.backup
 *.tmp
 
-# Opcional: ignora contenido pesado local
-*.uasset
-*.umap
+
